@@ -25,6 +25,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.gemtalks.R
 import com.example.gemtalks.ui.theme.DarkCyan
+import com.example.gemtalks.ui.theme.blue
 import com.example.gemtalks.ui.theme.cream
 import com.example.gemtalks.ui.theme.darkblue
 
@@ -32,7 +33,7 @@ import com.example.gemtalks.ui.theme.green
 
 @Composable
 fun ChatHeader(){
-    Row (modifier = Modifier.fillMaxWidth().background(darkblue).height(60.dp),
+    Row (modifier = Modifier.fillMaxWidth().background(blue).height(60.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.SpaceBetween){
         Image(
